@@ -4,8 +4,8 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="">
-	<meta name="author" content="">
+	<meta name="description" content="King's College London Tech Society is run by and made for people who are passionate about tech entrepreneurship and building interesting products. We bring together students with different skill sets from various disciplines to create an innovative and supportive community of likeminded people.">
+	<meta name="author" content="Ammaar Reshi">
 	<link rel="shortcut icon" href="assets/img/favicon.png">
 
 	<title>KCL Tech Society</title>
@@ -129,13 +129,14 @@
  <div class="col-lg-6 col-lg-offset-3">
   <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
    <!-- Indicators -->
-
+<!-- Here you can add the number of items you want in the slider, just duplicate any list item -->
    <ol class="carousel-indicators">
     <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
     <li data-target="#carousel-example-generic" data-slide-to="1"></li>
   </ol>
 
   <!-- Wrapper for slides -->
+  <!-- Here you specift what each list item is, again duplicate to add an item and associate the image with it -->
   <div class="carousel-inner">
     <div class="item active">
      <img src="assets/img/p01.png" alt="">
@@ -151,12 +152,15 @@
 
 <div class="col-lg-6 col-lg-offset-3">
   <h2>Upcoming Events</h2>
+
+  <!-- Below is the list of the top 3 upcoming events -->
   <div class="list-group">
-   <a href="#" class="list-group-item active">
-    <h4 class="list-group-item-heading">Teach Me X: iOS Development</h4>
-    <p class="list-group-item-text"><strong>Date</strong>: 10 February</p>
-    <p class="list-group-item-text"><strong>Description</strong>: Learn the basics of iOS Development and why you should start building awesome mobile apps.</p>
-    <p class="list-group-item-text"><strong>Venue</strong>: S-1.04, King's College London Strand Building</p>
+    <!--Event link goes here -->
+   <a href="#" class="list-group-item active"> <!-- Notice how this is list-group-item active, active being the keyword which means it will be highlighted -->
+    <h4 class="list-group-item-heading">Teach Me X: iOS Development</h4> <!-- Add event title -->
+    <p class="list-group-item-text"><strong>Date</strong>: 10 February</p> <!--Change date -->
+    <p class="list-group-item-text"><strong>Description</strong>: Learn the basics of iOS Development and why you should start building awesome mobile apps.</p> <!--Be descriptive! -->
+    <p class="list-group-item-text"><strong>Venue</strong>: S-1.04, King's College London Strand Building</p> <!-- Add venue info -->
   </a>
   <a href="http://hackkings.org" target = "_blank" class="list-group-item ">
     <h4 class="list-group-item-heading">HackKing's — The UK's Largest, Student-Run University Hackathon</h4>
@@ -165,6 +169,7 @@
     <p class="list-group-item-text"><strong>Venue</strong>: Innovation Warehouse</p>
 
   </a>
+  <!-- Can duplicate block of code to add as many list items as you want -->
   <a href="#" class="list-group-item ">
     <h4 class="list-group-item-heading">To Be Announced</h4>
     <p class="list-group-item-text">...</p>
@@ -292,5 +297,17 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
+
+<!--Google Analytics-->
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-43083390-1', 'kcltech.com');
+  ga('send', 'pageview');
+
+</script>
   </body>
   </html>
