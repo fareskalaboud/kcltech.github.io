@@ -2296,8 +2296,11 @@ footer .logo {
     }
     
     #header-link{
-
+        padding-top: 2em;
+font-size: 1.2em;
     }
+    
+
     
     #img-circle{
     display: none;
