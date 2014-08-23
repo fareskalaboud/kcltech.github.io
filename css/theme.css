@@ -2295,13 +2295,22 @@ footer .logo {
 
     }
     
+    #header-link{
+    padding-top: 0.2em;
+    display: 
+        none;
+    }
+    
     #img-circle{
     display: none;
     }
     
     #intro-video{
-      background: url('../img/hackkingspeople.jpg');
+      background-image: url('../img/hackkingspeople.jpg') !important;
+              background-size: cover !important;
+
     }
+
      .mbYTP_wrapper{
         display: none;
     }
