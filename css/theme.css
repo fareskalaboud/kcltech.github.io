@@ -2296,9 +2296,7 @@ footer .logo {
     }
     
     #header-link{
-    padding-top: 0.2em;
-    display: 
-        none;
+
     }
     
     #img-circle{
@@ -2306,8 +2304,7 @@ footer .logo {
     }
     
     #summary-head{ 
-    font-size: 1.4em;
-
+display: none;
     }
     
     #summary{ 
