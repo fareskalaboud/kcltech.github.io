@@ -2282,6 +2282,17 @@ footer .logo {
   footer ul li a {
     line-height: 2.5;
   }
+    #intro-video{
+      background-image: url('../img/hackkingspeople.jpg') !important;
+              background-size: cover !important;
+
+    }
+
+     .mbYTP_wrapper{
+        display: none;
+    }
+    
+    
 }
 @media (max-width: 480px) {
   .cbp-af-header .nav a.btn {
