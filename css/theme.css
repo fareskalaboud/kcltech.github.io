@@ -2287,6 +2287,10 @@ footer .logo {
   .cbp-af-header .nav a.btn {
     display: block;
   }
+    
+    #img-circle{
+    display: none;
+    }
   #intro .carousel-caption-left h1 {
     font-size: 2em;
     line-height: 1.4;
