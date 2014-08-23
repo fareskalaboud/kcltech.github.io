@@ -2288,8 +2288,22 @@ footer .logo {
     display: block;
   }
     
+    .carousel-caption-left{
+        margin-bottom: 
+            -95px;
+        font-size: 0.9em;
+
+    }
+    
     #img-circle{
     display: none;
+    }
+    
+    #intro-video{
+      background: url('../img/hackkingspeople.jpg');
+    }
+     .mbYTP_wrapper{
+        display: none;
     }
   #intro .carousel-caption-left h1 {
     font-size: 2em;
