@@ -2305,6 +2305,16 @@ footer .logo {
     display: none;
     }
     
+    #summary-head{ 
+    font-size: 1.4em;
+
+    }
+    
+    #summary{ 
+    margin: 0 0 40px;
+    padding-right: 50px;
+
+    }
     #intro-video{
       background-image: url('../img/hackkingspeople.jpg') !important;
               background-size: cover !important;
